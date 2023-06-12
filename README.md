@@ -10,7 +10,7 @@
 
 ![SlimSAS 8x Breakout PCB Layout](img/SlimSAS8x_Breakout_PCB_Layout.png)
 
-All signals are length-matched to within 1mm both inter-pair and intra-pair.
+All differential pairs are length-matched to within 1mm both inter-pair and intra-pair.
 
 
 # Schematic
