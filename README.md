@@ -11,6 +11,8 @@ No consideration was given to compatibility with the [SlimSAS SFF-8654 Standard]
 
 ![OpenCAPI SlimSAS 8x Breakout](img/OpenCAPI_x8_Breakout.jpg)
 
+Related Projects: [PCIe_x8_Breakout](https://github.com/mwrnd/PCIe_x8_Breakout), [OpenCAPI-to-PCIe](https://github.com/mwrnd/OpenCAPI-to-PCIe), [OpenCAPI-to-PCIe_x4_Host_and_Endpoint](https://github.com/mwrnd/OpenCAPI-to-PCIe_x4_Host_and_Endpoint), [QSFP_Breakout](https://github.com/mwrnd/QSFP_Breakout), [HDMI_Breakout](https://github.com/mwrnd/HDMI_Breakout)
+
 
 # Testing and Use Example
 
