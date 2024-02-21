@@ -11,6 +11,8 @@ No consideration was given to compatibility with the [SlimSAS SFF-8654 Standard]
 
 ![OpenCAPI SlimSAS 8x Breakout](img/OpenCAPI_x8_Breakout.jpg)
 
+The [Open Coherant Accelerator Processor Interface (OpenCAPI)](https://opencapi.org/wp-content/uploads/2022/07/OpenCAPI-Overview.pdf) [was a standard](https://opencapi.org/2022/08/09/cxl-consortium-and-opencapi-consortium-sign-letter-of-intent-to-transfer-opencapi-specifications-to-cxl/) that had FPGA-based [Advanced Accelerated Cable (AAC)](https://files.openpower.foundation/s/xSQPe6ypoakKQdq/download/25Gbps-spec-20171108.pdf) [Add-In cards](https://opencapi.org/wp-content/uploads/2018/12/OpenCAPI-Tech-SC18-Exhibitor-Forum.pdf) such as [ADM-PCIE-9H3](https://www.alpha-data.com/product/adm-pcie-9h3/), [ADM-PCIE-9H7](https://www.alpha-data.com/alpha-data-release-adm-pcie-9h7-data-center-board-with-xilinx-virtex-ultrascale-hbm-fpga/), [ADM-PCIE-9V3](https://www.alpha-data.com/product/adm-pcie-9v3/), [ADM-PCIE-9V5](https://www.alpha-data.com/product/adm-pcie-9v5/), [BittWare XUP-VV4](https://www.bittware.com/fpga/xup-vv4/), [BittWare XUP-VVH](https://www.bittware.com/fpga/xup-vvh/), and [Nvidia Innova-2 Flex](https://www.nvidia.com/en-us/networking/ethernet/innova-2-flex/).
+
 Related Projects: [PCIe_x8_Breakout](https://github.com/mwrnd/PCIe_x8_Breakout), [OpenCAPI-to-PCIe](https://github.com/mwrnd/OpenCAPI-to-PCIe), [OpenCAPI-to-PCIe_x4_Host_and_Endpoint](https://github.com/mwrnd/OpenCAPI-to-PCIe_x4_Host_and_Endpoint), [QSFP_Breakout](https://github.com/mwrnd/QSFP_Breakout), [HDMI_Breakout](https://github.com/mwrnd/HDMI_Breakout)
 
 
