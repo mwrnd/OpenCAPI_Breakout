@@ -11,7 +11,7 @@ No consideration was given to compatibility with the [SlimSAS SFF-8654 Standard]
 
 The [Open Coherant Accelerator Processor Interface (OpenCAPI)](https://opencapi.org/wp-content/uploads/2022/07/OpenCAPI-Overview.pdf) [was a standard](https://opencapi.org/2022/08/09/cxl-consortium-and-opencapi-consortium-sign-letter-of-intent-to-transfer-opencapi-specifications-to-cxl/) that had FPGA-based [Advanced Accelerated Cable (AAC)](https://files.openpower.foundation/s/xSQPe6ypoakKQdq/download/25Gbps-spec-20171108.pdf) [Add-In cards](https://opencapi.org/wp-content/uploads/2018/12/OpenCAPI-Tech-SC18-Exhibitor-Forum.pdf) such as [ADM-PCIE-9H3](https://www.alpha-data.com/product/adm-pcie-9h3/), [ADM-PCIE-9H7](https://www.alpha-data.com/alpha-data-release-adm-pcie-9h7-data-center-board-with-xilinx-virtex-ultrascale-hbm-fpga/), [ADM-PCIE-9V3](https://www.alpha-data.com/product/adm-pcie-9v3/), [ADM-PCIE-9V5](https://www.alpha-data.com/product/adm-pcie-9v5/), [BittWare XUP-VV4](https://www.bittware.com/fpga/xup-vv4/), [BittWare XUP-VVH](https://www.bittware.com/fpga/xup-vvh/), and [Nvidia Innova-2 Flex](https://www.nvidia.com/en-us/networking/ethernet/innova-2-flex/).
 
-This breakout board uses the OpenCAPI pinout from the [ADM-PCIE-9V5 User Manual (Pg15-19of38)](https://www.alpha-data.com/xml/user_manuals/adm-pcie-9v5%20user%20manual_v1_4.pdf). Refer to the [OpenCAPI-to-PCIe project's Schematic](https://github.com/mwrnd/OpenCAPI-to-PCIe#schematic) for notes on using the Innova-2's OpenCAPI port which has a different pinout. The Innova-2 is the only OpenCAPI board I have tested.
+This breakout board uses the OpenCAPI **Host** pinout which is the row A-to-B/B-to-A swapped version of the **Carrier** pinout from the [ADM-PCIE-9V5 User Manual (Pg15-19of38)](https://www.alpha-data.com/xml/user_manuals/adm-pcie-9v5%20user%20manual_v1_4.pdf). SlimSAS cables swap rows. Refer to the [OpenCAPI-to-PCIe project's Schematic](https://github.com/mwrnd/OpenCAPI-to-PCIe#schematic) for notes on using the Innova-2's OpenCAPI port which has a different pinout. The Innova-2 is the only OpenCAPI board I have tested.
 
 ![OpenCAPI Pinout](img/OpenCAPI_Pinout.jpg)
 
@@ -43,7 +43,7 @@ PCIe x8 In-system:
 
 # PCB Layout
 
-![SlimSAS 8x Breakout PCB Layout](img/SlimSAS8x_Breakout_PCB_Layout.png)
+![SlimSAS 8x Breakout PCB Layout](img/OpenCAPI_Breakout_PCB_Design_v0.1.png)
 
 All differential pairs are length-matched to within 1mm both inter-pair and intra-pair.
 
@@ -52,7 +52,7 @@ The board requires a [U10A474200T](https://www.digikey.com/en/products/detail/am
 
 # Schematic
 
-![SlimSAS 8x Breakout Schematic](img/SlimSAS8x_Breakout_Schematic.png)
+![SlimSAS 8x Breakout Schematic](img/OpenCAPI_Breakout_Schematic_v0.1.png)
 
 
 # PCB Layer Stackup
